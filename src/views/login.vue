@@ -96,7 +96,8 @@ export default {
                    type:'error'
                  })
               } else  {
-                 sessionStorage.setItem('user',user);  // 存储用户信息
+                 sessionStorage.setItem('user',JSON.stringify(user));  // 存储用户信息
+                
                 this.$router.push({ path: '/table' });  // 跳转到table 
               }
            });

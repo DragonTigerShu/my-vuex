@@ -15,12 +15,12 @@
  figure, figcaption, footer, header,
  menu, nav, output, ruby, section, summary,
  time, mark, audio, video, input {
-     color:#333333;
+  
      margin: 0;
      padding: 0;
      border: 0;
      font-size: 100%;
-     font-weight: normal!important;
+
      vertical-align: baseline;
      letter-spacing: 0.5px;
      box-sizing: border-box;
